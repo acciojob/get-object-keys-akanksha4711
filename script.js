@@ -1,7 +1,8 @@
 //your JS code here. If required.
 let student = { name: "Aman" };
 
-function getKeys(obj){
-	let keys = Object.keys(obj);
-	return keys;
+function getKeys(obj) {
+  return Object.keys(obj);
 }
+
+console.log(getKeys(student))
